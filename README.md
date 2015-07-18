@@ -1,8 +1,10 @@
 # Counter
 
-To start your new Phoenix application:
+Counter is an example Phoenix app which uses Relisa for easy deployment.
 
-1. Install dependencies with `mix deps.get`
-2. Start Phoenix endpoint with `mix phoenix.server`
+The app simply displays a running counter incremented every 25ms from Phoenix over Websocket,
+as well as the current OTP app version of Counter. You can use things like `mix relisa.deploy` to 
+see new versions get deployed with zero downtime (the counter never stops!). Rollbacks work as well,
+of course.
 
-Now you can visit `localhost:4000` from your browser.
+For more information on how to use Relisa, see the main repo.
